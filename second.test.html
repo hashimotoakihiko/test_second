@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<html lang="ja"> </html>
+<head>
+  <link rel="stylesheet" href="second.test.css">
+<meta charset="UTF-8">
+<title>クラス名簿登録</title>
+</head>
+<body>
+
+<div class="header">
+	<h1>クラス名簿登録</h1>
+</div>
+
+<form name="add_form" action="http://localhost/sample.html" method="post">
+
+  <div class="name">
+    <label>名前
+      <input type="text" name="名前"　placeholder="名前を入力">
+    </label>
+  </div>
+  
+  <div class="nicname">
+    <label>ニックネーム
+      <input type="text" name="nicname" placeholder="ニックネームを入力">
+    </label>
+  </div>  
+  
+  <div class="birth_date ">
+    <label>生年月日
+      <input type="date" name="birth_date" value="2012-02-16">
+    </label>
+  </div>
+
+  <div class="activity">  
+    <label>部活動
+      <select name="activity">
+        <option value="1">野球</option>
+        <option value="2">水泳</option>
+        <option value="3">弓道</option>
+        <option selected="4">帰宅</option>
+      </select>
+    </label>
+  </div>
+  
+  <div class="favorite_num">  
+    <label>好きな数字
+      <input type="number" name="favorite_num" placeholder="数字を入力">
+    </label>
+  </div>
+
+  <div class="introduction">
+    <label>自己紹介
+      <textarea type="introduction" 	name="introduction"  placeholder="自己紹介を入力">
+      </textarea>
+    </label>
+  </div>  
+
+  
+  <div class="send">
+    <input type="submit" value="送信">
+  </div>
+  
+
+</form>
+
+
+
+</body>
+</html>
